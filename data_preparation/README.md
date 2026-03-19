@@ -70,12 +70,6 @@ The current package layout is:
 ```text
 data_preparation/
   AGENTS.md
-  README.md
-  SPEC.md
-  TASKS.md
-  TEST_CONTRACT.md
-  EXPECTED_CASES.md
-  PROMPTS.md
 
   __init__.py
   agent.py
@@ -97,6 +91,15 @@ data_preparation/
 
   adapters/
   capabilities/
+  docs/
+    project/
+      README.md
+      readmeCN.md
+      SPEC.md
+      TASKS.md
+      TEST_CONTRACT.md
+      EXPECTED_CASES.md
+      PROMPTS.md
   prompts/
   sample_inputs/
   examples/
@@ -107,6 +110,7 @@ data_preparation/
 Key subdirectories:
 
 - `capabilities/`: runtime business logic helpers such as inspection rules, refinement, validation, and route report assembly
+- `docs/project/`: bundled project documentation, specs, task phases, prompt references, and maintenance-facing notes
 - `tools/`: low-level executable processing tools plus registry
 - `prompts/`: model prompt templates for runtime planning and tool generation
 - `examples/`: runnable demos

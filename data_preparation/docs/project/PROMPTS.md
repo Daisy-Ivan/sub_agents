@@ -8,7 +8,7 @@ Use them in order instead of asking for the whole system in one step.
 
 ## Prompt 1 — Read the docs and scaffold the package
 
-Read `AGENTS.md`, `README.md`, `SPEC.md`, `TASKS.md`, and `TEST_CONTRACT.md` first.
+Read `../../AGENTS.md` first, then read `README.md`, `SPEC.md`, `TASKS.md`, and `TEST_CONTRACT.md` from this `docs/project/` folder.
 
 Then scaffold the `data_preparation` sub-agent package according to the documented architecture.
 

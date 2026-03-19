@@ -142,7 +142,7 @@ Avoid:
 
 ## Development Order
 
-Follow `TASKS.md` in order.
+Follow `docs/project/TASKS.md` in order.
 
 At the end of each phase:
 1. keep imports working,

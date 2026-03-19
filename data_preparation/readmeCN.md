@@ -70,12 +70,6 @@
 ```text
 data_preparation/
   AGENTS.md
-  README.md
-  SPEC.md
-  TASKS.md
-  TEST_CONTRACT.md
-  EXPECTED_CASES.md
-  PROMPTS.md
 
   __init__.py
   agent.py
@@ -97,6 +91,15 @@ data_preparation/
 
   adapters/
   capabilities/
+  docs/
+    project/
+      README.md
+      readmeCN.md
+      SPEC.md
+      TASKS.md
+      TEST_CONTRACT.md
+      EXPECTED_CASES.md
+      PROMPTS.md
   prompts/
   sample_inputs/
   examples/
@@ -107,6 +110,7 @@ data_preparation/
 关键子目录：
 
 - `capabilities/`：运行时业务逻辑辅助，包括检查规则、精炼、校验，以及路由报告组装
+- `docs/project/`：打包后的项目文档集合，包含规格、任务阶段、提示词说明以及维护说明
 - `tools/`：底层可执行处理工具及其注册表
 - `prompts/`：运行时模型提示模板，用于规划和工具生成
 - `examples/`：可运行的演示
